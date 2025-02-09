@@ -1,0 +1,20 @@
+.ball{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.ball::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    transition: all .9s ease;
+    animation: expafade 1s ease infinite;
+    color: rgba(255, 255, 255, 0.525);
+}
+@keyframes expafade{
+    from{opacity: 1; scale: 1;}
+    to{opacity: 0; scale: 2;}
+}
