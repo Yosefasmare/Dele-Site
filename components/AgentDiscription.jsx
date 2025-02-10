@@ -7,7 +7,6 @@ import { MdMapsHomeWork } from 'react-icons/md'
 import ListingSection from './ListingSection'
 import { databases } from '@/lib/appwrite'
 import { Query } from 'appwrite'
-import UserDashboard from './User'
 
 const AgentDiscription = ({agent}) => {
     const [propertyPosts,setPropertyPosts] = useState([])
