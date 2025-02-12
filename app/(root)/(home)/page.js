@@ -19,7 +19,7 @@ export default async function Home({ searchParams }) {
     <>
       <section className="w-full h-[68vh]  flex  relative justify-center items-center">
         <div className="absolute -z-10 w-full h-full overflow-hidden">
-          <Image src={Banner} alt="Banner" className="w-full h-full object-cover" />
+          <Image loading="eager" priority src={Banner} alt="Banner" className="w-full h-full object-cover" />
         </div>
         <div className="w-full h-full flex flex-col items-center justify-center gap-5 pt-9 text-center">
           <h1 className="text-4xl lg:text-6xl text-center text-white font-extrabold">Find Your Dream Home in Ethiopia</h1>
