@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar"
 
 const layout = ({children}) => {
   return (
-    <html >
+    <html lang="en" >
       <body >
          <Navbar />
          {children}
